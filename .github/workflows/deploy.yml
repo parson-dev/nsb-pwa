@@ -32,3 +32,5 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build
         force_orphan: true
+        user_name: parson-dev
+        user_email: parson-dev@users.noreply.github.com
