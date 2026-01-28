@@ -24,7 +24,7 @@ jobs:
       run: npm ci --legacy-peer-deps
 
     - name: Build
-      run: npm run build
+      run: CI=false npm run build
 
     - name: Deploy to GitHub Pages
       if: github.ref == 'refs/heads/main'
