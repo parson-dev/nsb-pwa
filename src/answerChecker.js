@@ -1,4 +1,4 @@
-import { pipeline, env } from '@huggingface/transformers';
+import { pipeline, env } from '@xenova/transformers';
 
 // Configure Transformers.js to always download fresh (no cache)
 env.allowLocalModels = false;
@@ -24,55 +24,25 @@ let loadingFailed = false; // Track if loading has failed
  * Initialize the embedding model (lazy loading)
  */
 async function initializeModel() {
-  if (embeddingPipeline) {
-    return embeddingPipeline;
-  }
-  
-  // Don't retry if loading has already failed
-  if (loadingFailed) {
-    throw new Error('Model loading previously failed. Please refresh the page to retry.');
-  }
-  
-  if (isLoading) {
-    return loadingPromise;
-  }
-  
+  if (embeddingPipeline) return embeddingPipeline;
+  if (isLoading) return loadingPromise;
+
   isLoading = true;
   loadingPromise = (async () => {
     try {
-      console.log('Starting to load model: Xenova/all-MiniLM-L6-v2');
-      
-      // Use a small, efficient model for embeddings
-      // all-MiniLM-L6-v2 is ~23MB and works well for semantic similarity
-      embeddingPipeline = await pipeline(
-        'feature-extraction',
-        'Xenova/all-MiniLM-L6-v2',
-        {
-          quantized: true,
-          revision: 'main',
-          progress_callback: (progress) => {
-            console.log('Model loading progress:', progress);
-          }
-        }
-      );
-      console.log('Answer checker model loaded successfully');
+      console.log('Loading model: Xenova/all-MiniLM-L6-v2');
+      embeddingPipeline = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2', { quantized: true });
+      console.log('Model loaded');
       isLoading = false;
       return embeddingPipeline;
-    } catch (error) {
-      console.error('Failed to load answer checker model:', error);
-      console.error('Error details:', {
-        message: error.message,
-        stack: error.stack,
-        name: error.name
-      });
+    } catch (err) {
+      console.error('Failed to load model', err);
       isLoading = false;
-      loadingFailed = true; // Mark as failed, don't retry
-      loadingPromise = null;
       embeddingPipeline = null;
-      throw error;
+      throw err;
     }
   })();
-  
+
   return loadingPromise;
 }
 
