@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nsb-pwa/static/css/main.1d23aa28.css",
+    "main.js": "/nsb-pwa/static/js/main.df1c88af.js",
+    "index.html": "/nsb-pwa/index.html",
+    "main.1d23aa28.css.map": "/nsb-pwa/static/css/main.1d23aa28.css.map",
+    "main.df1c88af.js.map": "/nsb-pwa/static/js/main.df1c88af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d23aa28.css",
+    "static/js/main.df1c88af.js"
+  ]
+}
