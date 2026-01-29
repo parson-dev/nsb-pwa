@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import MSQuestions from './ms-questions.json';
-import HSQuestions from './hs-questions.json';
+import MSQuestions from './ms-questions-tagged.json';
+import HSQuestions from './hs-questions-tagged.json';
 import { checkAnswer, preloadModel } from './answerChecker';
 
 // Generic Settings Menu Component
@@ -285,6 +285,8 @@ function AutoCheckSettings({
 function App() {
   const [level, setLevel] = useState('MS');
   const [selectedSubjects, setSelectedSubjects] = useState([]);
+  const [selectedTags, setSelectedTags] = useState([]); // Advanced filtering by tags
+  const [advancedFiltersOpen, setAdvancedFiltersOpen] = useState(false); // Toggle for advanced filters section
   const [gameStarted, setGameStarted] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(null);
   const [userAnswer, setUserAnswer] = useState('');
@@ -374,12 +376,82 @@ function App() {
     return subjects;
   };
 
-  // Filter questions based on selected subjects
+  // Filter questions based on selected subjects and tags
   const getFilteredQuestions = () => {
     const questionData = getCurrentQuestionData();
-    return questionData.filter(q => 
+    return questionData.filter(q => {
+      // Filter by subject
+      if (!selectedSubjects.includes(q.subject)) return false;
+      
+      // Filter by tags (if any selected)
+      if (selectedTags.length > 0) {
+        // Question must have at least one of the selected tags
+        return selectedTags.some(tag => q.tags?.includes(tag));
+      }
+      
+      return true;
+    });
+  };
+
+  // Get all available tags from filtered questions
+  const getAvailableTags = () => {
+    const questionData = getCurrentQuestionData();
+    const filteredBySubject = questionData.filter(q => 
       selectedSubjects.includes(q.subject)
     );
+    
+    const allTags = new Set();
+    filteredBySubject.forEach(q => {
+      if (q.tags) {
+        q.tags.forEach(tag => allTags.add(tag));
+      }
+    });
+    
+    return Array.from(allTags).sort();
+  };
+
+  // Categorize tags by type
+  const categorizeTag = (tag) => {
+    const knowledgeTypes = ['factual', 'conceptual', 'computational', 'analytical'];
+    const cognitiveTypes = ['recall', 'application', 'synthesis'];
+    const mathSubtopics = ['algebra', 'geometry', 'statistics', 'probability', 'calculus', 'number-theory'];
+    
+    if (knowledgeTypes.includes(tag)) return 'knowledge';
+    if (cognitiveTypes.includes(tag)) return 'cognitive';
+    if (mathSubtopics.includes(tag)) return 'math-subtopic';
+    return 'science-subtopic';
+  };
+
+  // Get tags organized by category
+  const getTagsByCategory = () => {
+    const availableTags = getAvailableTags();
+    const categories = {
+      knowledge: [],
+      cognitive: [],
+      'math-subtopic': [],
+      'science-subtopic': []
+    };
+    
+    availableTags.forEach(tag => {
+      const category = categorizeTag(tag);
+      categories[category].push(tag);
+    });
+    
+    return categories;
+  };
+
+  // Handle tag selection
+  const handleTagChange = (tag) => {
+    setSelectedTags(prev => 
+      prev.includes(tag) 
+        ? prev.filter(t => t !== tag)
+        : [...prev, tag]
+    );
+  };
+
+  // Clear all tag filters
+  const clearTagFilters = () => {
+    setSelectedTags([]);
   };
 
   // Handle subject selection
@@ -881,6 +953,128 @@ function App() {
               </label>
             ))}
           </div>
+
+          {/* Advanced Filters Section */}
+          {selectedSubjects.length > 0 && (
+            <div className="advanced-filters-section">
+              <button 
+                className="advanced-filters-toggle"
+                onClick={() => setAdvancedFiltersOpen(!advancedFiltersOpen)}
+              >
+                <span className="toggle-icon">{advancedFiltersOpen ? '▼' : '▶'}</span>
+                <span className="toggle-text">Advanced Filters</span>
+                {selectedTags.length > 0 && (
+                  <span className="active-filters-badge">{selectedTags.length} active</span>
+                )}
+              </button>
+
+              {advancedFiltersOpen && (
+                <div className="advanced-filters-content">
+                  <p className="filters-help-text">
+                    Filter questions by knowledge type, cognitive level, or specific subtopics
+                  </p>
+
+                  {(() => {
+                    const tagsByCategory = getTagsByCategory();
+                    const hasKnowledge = tagsByCategory.knowledge.length > 0;
+                    const hasCognitive = tagsByCategory.cognitive.length > 0;
+                    const hasMathSubtopics = tagsByCategory['math-subtopic'].length > 0;
+                    const hasScienceSubtopics = tagsByCategory['science-subtopic'].length > 0;
+
+                    return (
+                      <>
+                        {hasKnowledge && (
+                          <div className="tag-category">
+                            <h4>Knowledge Type</h4>
+                            <div className="tag-grid">
+                              {tagsByCategory.knowledge.map(tag => (
+                                <label key={tag} className="tag-checkbox">
+                                  <input
+                                    type="checkbox"
+                                    checked={selectedTags.includes(tag)}
+                                    onChange={() => handleTagChange(tag)}
+                                  />
+                                  <span className="tag-label">{tag}</span>
+                                </label>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+
+                        {hasCognitive && (
+                          <div className="tag-category">
+                            <h4>Cognitive Level</h4>
+                            <div className="tag-grid">
+                              {tagsByCategory.cognitive.map(tag => (
+                                <label key={tag} className="tag-checkbox">
+                                  <input
+                                    type="checkbox"
+                                    checked={selectedTags.includes(tag)}
+                                    onChange={() => handleTagChange(tag)}
+                                  />
+                                  <span className="tag-label">{tag}</span>
+                                </label>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+
+                        {hasMathSubtopics && (
+                          <div className="tag-category">
+                            <h4>Math Subtopics</h4>
+                            <div className="tag-grid">
+                              {tagsByCategory['math-subtopic'].map(tag => (
+                                <label key={tag} className="tag-checkbox">
+                                  <input
+                                    type="checkbox"
+                                    checked={selectedTags.includes(tag)}
+                                    onChange={() => handleTagChange(tag)}
+                                  />
+                                  <span className="tag-label">{tag}</span>
+                                </label>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+
+                        {hasScienceSubtopics && (
+                          <div className="tag-category">
+                            <h4>Science Subtopics</h4>
+                            <div className="tag-grid">
+                              {tagsByCategory['science-subtopic'].map(tag => (
+                                <label key={tag} className="tag-checkbox">
+                                  <input
+                                    type="checkbox"
+                                    checked={selectedTags.includes(tag)}
+                                    onChange={() => handleTagChange(tag)}
+                                  />
+                                  <span className="tag-label">{tag}</span>
+                                </label>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+
+                        {selectedTags.length > 0 && (
+                          <div className="filter-actions">
+                            <button 
+                              className="clear-filters-button"
+                              onClick={clearTagFilters}
+                            >
+                              Clear All Filters
+                            </button>
+                            <div className="filtered-count">
+                              {getFilteredQuestions().length} questions match your filters
+                            </div>
+                          </div>
+                        )}
+                      </>
+                    );
+                  })()}
+                </div>
+              )}
+            </div>
+          )}
 
           <div className="question-limit-section">
             <h3>Number of Questions (Optional):</h3>

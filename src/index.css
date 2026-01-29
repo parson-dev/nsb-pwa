@@ -1721,3 +1721,257 @@ hanced question text formatting for multiple choice */
     margin-bottom: 4px;
   }
 }
+
+/* Advanced Filters Section */
+.advanced-filters-section {
+  margin: 24px 0;
+  border-top: 2px solid rgba(102, 126, 234, 0.1);
+  padding-top: 24px;
+}
+
+.advanced-filters-toggle {
+  width: 100%;
+  background: rgba(102, 126, 234, 0.05);
+  border: 2px solid rgba(102, 126, 234, 0.2);
+  border-radius: 12px;
+  padding: 16px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #667eea;
+  transition: all 0.3s ease;
+}
+
+.advanced-filters-toggle:hover {
+  background: rgba(102, 126, 234, 0.1);
+  border-color: rgba(102, 126, 234, 0.3);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.1);
+}
+
+.toggle-icon {
+  font-size: 14px;
+  transition: transform 0.3s ease;
+}
+
+.toggle-text {
+  flex: 1;
+  text-align: left;
+}
+
+.active-filters-badge {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+}
+
+.advanced-filters-content {
+  margin-top: 20px;
+  padding: 24px;
+  background: rgba(248, 249, 250, 0.8);
+  border-radius: 12px;
+  border: 2px solid rgba(102, 126, 234, 0.1);
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.filters-help-text {
+  margin: 0 0 24px 0;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+  text-align: center;
+  font-style: italic;
+}
+
+.tag-category {
+  margin-bottom: 28px;
+}
+
+.tag-category:last-of-type {
+  margin-bottom: 0;
+}
+
+.tag-category h4 {
+  margin: 0 0 16px 0;
+  font-size: 1rem;
+  color: #333;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid rgba(102, 126, 234, 0.1);
+}
+
+.tag-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .tag-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+}
+
+.tag-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.tag-checkbox:hover {
+  background: rgba(102, 126, 234, 0.05);
+  border-color: rgba(102, 126, 234, 0.2);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.tag-checkbox input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: #667eea;
+  cursor: pointer;
+}
+
+.tag-checkbox input[type="checkbox"]:checked + .tag-label {
+  font-weight: 600;
+  color: #667eea;
+}
+
+.tag-checkbox:has(input:checked) {
+  background: rgba(102, 126, 234, 0.1);
+  border-color: #667eea;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.15);
+}
+
+.tag-label {
+  font-size: 14px;
+  color: #555;
+  text-transform: capitalize;
+  user-select: none;
+  cursor: pointer;
+}
+
+.filter-actions {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 2px solid rgba(102, 126, 234, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.clear-filters-button {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 0 4px 12px rgba(238, 90, 36, 0.3);
+  transition: all 0.3s ease;
+}
+
+.clear-filters-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(238, 90, 36, 0.4);
+}
+
+.filtered-count {
+  font-size: 15px;
+  color: #667eea;
+  font-weight: 600;
+  padding: 8px 16px;
+  background: rgba(102, 126, 234, 0.1);
+  border-radius: 8px;
+}
+
+/* Mobile adjustments for advanced filters */
+@media (max-width: 768px) {
+  .advanced-filters-section {
+    margin: 20px 0;
+    padding-top: 20px;
+  }
+  
+  .advanced-filters-toggle {
+    padding: 14px 16px;
+    font-size: 15px;
+  }
+  
+  .advanced-filters-content {
+    padding: 20px;
+  }
+  
+  .tag-category {
+    margin-bottom: 24px;
+  }
+  
+  .tag-category h4 {
+    font-size: 0.95rem;
+  }
+  
+  .tag-checkbox {
+    padding: 9px 12px;
+  }
+  
+  .tag-label {
+    font-size: 13px;
+  }
+  
+  .filter-actions {
+    margin-top: 20px;
+    padding-top: 16px;
+  }
+}
+
+/* Animation for tag selection */
+.tag-checkbox {
+  animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Stagger animation for tags */
+.tag-checkbox:nth-child(1) { animation-delay: 0.02s; }
+.tag-checkbox:nth-child(2) { animation-delay: 0.04s; }
+.tag-checkbox:nth-child(3) { animation-delay: 0.06s; }
+.tag-checkbox:nth-child(4) { animation-delay: 0.08s; }
+.tag-checkbox:nth-child(5) { animation-delay: 0.10s; }
+.tag-checkbox:nth-child(6) { animation-delay: 0.12s; }

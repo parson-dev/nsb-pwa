@@ -1,8 +1,8 @@
 import { pipeline, env } from '@xenova/transformers';
 
-// Configure Transformers.js to always download fresh (no cache)
+// Configure Transformers.js for browser environment
 env.allowLocalModels = false;
-env.useBrowserCache = false; // DISABLED - always download fresh
+env.useBrowserCache = true; // Enable browser cache for better performance
 env.remoteHost = 'https://huggingface.co';
 env.remotePathTemplate = '{model}/resolve/{revision}/';
 
@@ -18,31 +18,63 @@ console.log('Transformers.js environment:', {
 let embeddingPipeline = null;
 let isLoading = false;
 let loadingPromise = null;
-let loadingFailed = false; // Track if loading has failed
 
 /**
  * Initialize the embedding model (lazy loading)
  */
 async function initializeModel() {
-  if (embeddingPipeline) return embeddingPipeline;
-  if (isLoading) return loadingPromise;
-
+  if (embeddingPipeline) {
+    return embeddingPipeline;
+  }
+  
+  if (isLoading) {
+    return loadingPromise;
+  }
+  
   isLoading = true;
   loadingPromise = (async () => {
     try {
-      console.log('Loading model: Xenova/all-MiniLM-L6-v2');
-      embeddingPipeline = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2', { quantized: true });
-      console.log('Model loaded');
+      console.log('Starting to load model: Xenova/all-MiniLM-L6-v2');
+      console.log('Environment:', {
+        allowLocalModels: env.allowLocalModels,
+        useBrowserCache: env.useBrowserCache,
+        remoteHost: env.remoteHost
+      });
+      
+      // Use a small, efficient model for embeddings
+      // all-MiniLM-L6-v2 is ~23MB and works well for semantic similarity
+      embeddingPipeline = await pipeline(
+        'feature-extraction',
+        'Xenova/all-MiniLM-L6-v2',
+        {
+          quantized: true,
+          revision: 'main',
+          progress_callback: (progress) => {
+            console.log('Model loading progress:', progress);
+          }
+        }
+      );
+      console.log('✅ Answer checker model loaded successfully');
       isLoading = false;
       return embeddingPipeline;
-    } catch (err) {
-      console.error('Failed to load model', err);
+    } catch (error) {
+      console.error('❌ Failed to load answer checker model:', error);
+      console.error('Error details:', {
+        message: error.message,
+        stack: error.stack,
+        name: error.name,
+        cause: error.cause
+      });
+      
+      // Reset state to allow retry
       isLoading = false;
+      loadingPromise = null;
       embeddingPipeline = null;
-      throw err;
+      
+      throw error;
     }
   })();
-
+  
   return loadingPromise;
 }
 
@@ -222,9 +254,8 @@ export function isModelReady() {
  * Reset the loading state (useful if you want to retry after failure)
  */
 export function resetLoadingState() {
-  loadingFailed = false;
   isLoading = false;
   loadingPromise = null;
   embeddingPipeline = null;
-  console.log('Model loading state reset');
+  console.log('Model loading state reset - ready to retry');
 }
