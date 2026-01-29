@@ -74554,7 +74554,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "Researchers at Argonne National Lab are developing a new understanding of water oxidation via electrocatalysis. Identify all of the following four choices that are products of the water oxidation half-reaction: 1) Protons; 2) Molecular oxygen; 3) Molecular hydrogen; 4) Heavy water.",
-    "answer": "1, 2 2019 Regional Science Bowl – Round 9A",
+    "answer": "1, 2",
     "tags": [
       "recall",
       "chemistry-reactions"
@@ -74581,7 +74581,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three regions that are typically at low atmospheric pressures due to global atmospheric circulation patterns: 1) ITCZ; 2) Horse latitudes; 3) Polar front.",
-    "answer": "1, 3 2019 Regional Science Bowl – Round 9A",
+    "answer": "1, 3",
     "tags": [
       "recall",
       "earth-weather"
@@ -74656,7 +74656,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following four cell types that are considered white blood cells: 1) T cells; 2) Erythrocytes; 3) Thrombocytes; 4) Neutrophils.",
-    "answer": "1, 4 2019 Regional Science Bowl – Round 9A",
+    "answer": "1, 4",
     "tags": [
       "recall",
       "biology-anatomy"
@@ -74706,7 +74706,7 @@
     "subject": "ENERGY",
     "format": "Multiple Choice",
     "question": "Fermi National Accelerator scientists are looking for physics beyond the Standard Model in the form of decay pathways that do not conserve lepton flavor. Which of the following particles has already been observed violating this conservation principle?",
-    "answer": "X) NEUTRINOS 2019 Regional Science Bowl – Round 9A",
+    "answer": "X) NEUTRINOS",
     "choices": {
       "W": "Electrons",
       "X": "Neutrinos",
@@ -74777,7 +74777,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "Researchers at Oak Ridge National Lab are studying the nuclear fusion reactions occurring in the Sun using the Titan supercomputer. What is the primary fusion pathway that occurs in the Sun?",
-    "answer": "PROTON-PROTON CHAIN (ACCEPT: PP CHAIN) 2019 Regional Science Bowl – Round 9A",
+    "answer": "PROTON-PROTON CHAIN (ACCEPT: PP CHAIN)",
     "tags": [
       "computational",
       "recall",
@@ -74833,7 +74833,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "Place the following three natural satellites in order of increasing size: 1) Moon; 2) Phobos; 3) Deimos.",
-    "answer": "3, 2, 1 2019 Regional Science Bowl – Round 9A",
+    "answer": "3, 2, 1",
     "tags": [
       "application"
     ]
@@ -74881,7 +74881,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "The unsaturated fatty acids present in the cell membrane primarily possess what stereochemistry on their double bond?",
-    "answer": "CIS (ACCEPT: Z) 2019 Regional Science Bowl – Round 9A",
+    "answer": "CIS (ACCEPT: Z)",
     "tags": [
       "chemistry-structure",
       "biology-anatomy"
@@ -75017,7 +75017,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "What is the main anion  [AN-eye-on] that the pancreas secretes into the small intestine to neutralize stomach acid?",
-    "answer": "BICARBONATE (ACCEPT: HYDROGENCARBONATE) 2019 Regional Science Bowl – Round 8A",
+    "answer": "BICARBONATE (ACCEPT: HYDROGENCARBONATE)",
     "tags": [
       "recall",
       "analytical",
@@ -75047,7 +75047,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "A telescope’s objective lens has a focal length of 90 centimeters, and its eyepiece has a focal length of one-third of a centimeter. What is the telescopes magnifying power?",
-    "answer": "270 (ACCEPT: 270 TIMES, 270X) 2019 Regional Science Bowl – Round 8A",
+    "answer": "270 (ACCEPT: 270 TIMES, 270X)",
     "tags": [
       "recall",
       "physics-mechanics"
@@ -75134,7 +75134,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "What is the sum of the distinct prime factors of 924?",
-    "answer": "23 2019 Regional Science Bowl – Round 8A",
+    "answer": "23",
     "tags": [
       "recall",
       "algebra",
@@ -75190,7 +75190,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three statements that are true of mitosis: 1) The mitotic spindle begins to form during prophase; 2) Anaphase is the shortest phase of mitosis; 3) Centrosomes are pushed apart by lengthening microtubules.",
-    "answer": "ALL OF THEM 2019 Regional Science Bowl – Round 8A",
+    "answer": "ALL OF THEM",
     "tags": [
       "recall",
       "conceptual",
@@ -75240,7 +75240,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "Researchers at Argonne National Lab have developed new understanding of the chemical processes that reduce battery capacity. Identify all of the following four units that could be used to describe battery capacity: 1) Milli-amp-hours; 2) Coulomb-hours per second; 3) Coulombs per volt; 4) Watt-hours per liter.",
-    "answer": "1, 2 2019 Regional Science Bowl – Round 8A",
+    "answer": "1, 2",
     "tags": [
       "conceptual",
       "recall",
@@ -75291,7 +75291,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "What is the slope-intercept equation of the line tangent to the graph of y = x3 + x + 4 at the point (1, 6)?",
-    "answer": "y = 4x + 2 2019 Regional Science Bowl – Round 8A",
+    "answer": "y = 4x + 2",
     "tags": [
       "recall",
       "algebra",
@@ -75439,7 +75439,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three statements that are true of denaturation using urea; 3) It relies on SDS binding proportional to protein mass.",
-    "answer": "1, 3 2019 Regional Science Bowl – Round 14A",
+    "answer": "1, 3",
     "tags": [
       "recall",
       "application",
@@ -75524,7 +75524,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "How many zeroes occur at the right of the number of permutations of 60 objects taken 20 at a time?",
-    "answer": "5 2019 Regional Science Bowl – Round 14A",
+    "answer": "5",
     "tags": [
       "computational",
       "probability",
@@ -75607,7 +75607,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "The graph of f of x = the fraction with numerator x2 – 2x – 24 and denominator x2 – 16 has a removable discontinuity at x = a for some real number a. What is the limit as x approaches a of f of x?",
-    "answer": "5/4 (ACCEPT: 1¼, 1.25) 2019 Regional Science Bowl – Round 14A",
+    "answer": "5/4 (ACCEPT: 1¼, 1.25)",
     "tags": [
       "recall",
       "calculus"
@@ -75717,7 +75717,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "The C-N-O process in massive stars is responsible for fusing what element into heavier nuclides?",
-    "answer": "HYDROGEN 2019 Regional Science Bowl – Round 14A",
+    "answer": "HYDROGEN",
     "tags": [
       "astronomy",
       "analytical",
@@ -75822,7 +75822,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three statements that are true of starches: 1) In branched glycogen, the branch begins with an alpha-1,4-glycosidic linkage; 2) Amylopectin is more branched than amylose; 3) Cellulose is more branched than glycogen.",
-    "answer": "2 2019 Regional Science Bowl – Round 13A",
+    "answer": "2",
     "tags": [
       "recall",
       "biology-anatomy",
@@ -75853,7 +75853,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Multiple Choice",
     "question": "Which of the following statements is NOT true about Lagrange [lah-GRAHNJ] points associated with two large bodies in orbit?",
-    "answer": "X) THERE CAN BE AS MANY AS 6 LAGRANGE POINTS TO DESCRIBE A SYSTEM 2019 Regional Science Bowl – Round 13A",
+    "answer": "X) THERE CAN BE AS MANY AS 6 LAGRANGE POINTS TO DESCRIBE A SYSTEM",
     "choices": {
       "W": "Lagrange points are solutions to the general three-body problem",
       "X": "There can be as many as 6 Lagrange points to describe a system",
@@ -75925,7 +75925,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "Rounded to the nearest integer, what is the geometric mean of 6 and 85?",
-    "answer": "23 2019 Regional Science Bowl – Round 13A",
+    "answer": "23",
     "tags": [
       "recall",
       "statistics"
@@ -75986,7 +75986,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three statements that are true of the circadian clock: 1) It is autonomous; 2) It can be modulated by behavioral cues; 3) It evolved to manage energy use corresponding to the light-dark cycle caused by Earth’s rotation.",
-    "answer": "ALL OF THEM 2019 Regional Science Bowl – Round 13A",
+    "answer": "ALL OF THEM",
     "tags": [
       "recall",
       "application",
@@ -76038,7 +76038,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "Scientists at Pacific Northwest National Lab are developing methods to engineer the rhizosphere [RYE-zoh-sfeer]. This is the area of soil that interacts with what part of the plant?",
-    "answer": "ROOTS 2019 Regional Science Bowl – Round 13A",
+    "answer": "ROOTS",
     "tags": [
       "geometry",
       "application"
@@ -76096,7 +76096,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "What is the slope-intercept equation of the oblique asymptote of the function f of x equals the fraction with numerator 2x2 – 5 and denominator x + 3?",
-    "answer": "y = 2x – 6 2019 Regional Science Bowl – Round 13A",
+    "answer": "y = 2x – 6",
     "tags": [
       "recall",
       "algebra",
@@ -76178,7 +76178,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "How many two-digit positive integers have the tens digit strictly less than the ones digit?",
-    "answer": "36 2019 Regional Science Bowl – Round 13A",
+    "answer": "36",
     "tags": [
       "computational",
       "application"
@@ -76209,7 +76209,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "Order the following three tectonic plates in order of increasing size: 1) African; 2) Eurasian; 3) Juan de Fuca [WAHN-de-FOO-ka].",
-    "answer": "3, 1, 2 2019 Regional Science Bowl – Round 12A",
+    "answer": "3, 1, 2",
     "tags": [
       "earth-geology",
       "analytical",
@@ -76283,7 +76283,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "A mole of glucose, with a standard enthalpy of formation of negative 690 kilocalories per mole, can be harvested to generate 30 moles of ATP from ADP. To one significant figure, what is the percent efficiency of this energetic transformation?",
-    "answer": "30 2019 Regional Science Bowl – Round 12A",
+    "answer": "30",
     "tags": [
       "recall",
       "biology-genetics"
@@ -76345,7 +76345,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "Scientists at the National Renewable Energy Lab are studying low- cost, highly absorptive solar cells that are made from thin films of compounds like methylammonium [meth-il-ammonium] lead trihalides [try-HAY-lieds], a member of a group of materials having crystal structures resembling CaTiO3. What is this group of materials called?",
-    "answer": "PEROVSKITES 2019 Regional Science Bowl – Round 12A",
+    "answer": "PEROVSKITES",
     "tags": [
       "recall",
       "physics-mechanics",
@@ -76376,7 +76376,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "To the nearest degree, what is the measure of each interior angle of a regular 17-sided polygon?",
-    "answer": "159 2019 Regional Science Bowl – Round 12A",
+    "answer": "159",
     "tags": [
       "recall",
       "geometry"
@@ -76400,7 +76400,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Multiple Choice",
     "question": "Which of the following molecules is a DNA-intercalating agent?",
-    "answer": "W) ETHIDIUM BROMIDE 2019 Regional Science Bowl – Round 12A",
+    "answer": "W) ETHIDIUM BROMIDE",
     "choices": {
       "W": "Ethidium bromide",
       "X": "Cyanogen bromide",
@@ -76455,7 +76455,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "Consider an infinite geometric series with sum equal to 11/3 and first term 6/5. What is the value of the common ratio r for this series?",
-    "answer": "37/55 2019 Regional Science Bowl – Round 12A",
+    "answer": "37/55",
     "tags": [
       "recall",
       "analytical",
@@ -76524,7 +76524,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three statements that are true of lysosomal enzymes: 1) Many lysosomal enzymes pass through the rough ER; 2) Lysosomal enzymes are most active at basic pH values; 3) Lysosomal enzyme processing occurs in the Golgi apparatus.",
-    "answer": "1, 3 2019 Regional Science Bowl – Round 12A",
+    "answer": "1, 3",
     "tags": [
       "recall",
       "conceptual",
@@ -76577,7 +76577,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three plate boundary types that are present at mid-ocean ridges: 1) Convergent; 2) Divergent; 3) Transform.",
-    "answer": "2, 3 2019 Regional Science Bowl – Round 12A",
+    "answer": "2, 3",
     "tags": [
       "recall",
       "earth-geology"
@@ -76626,7 +76626,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "Researchers at Fermi National Accelerator Lab were the first to observe the production of the top quark. In the decay pathway that produced the first-observed top quark, the decay was mediated by what fundamental force?",
-    "answer": "STRONG (ACCEPT: STRONG NUCLEAR FORCE) 2019 Regional Science Bowl – Round 11A",
+    "answer": "STRONG (ACCEPT: STRONG NUCLEAR FORCE)",
     "tags": [
       "chemistry-reactions",
       "physics-mechanics"
@@ -76706,7 +76706,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three positions on the celestial sphere that have a declination of zero: 1) Summer solstice; 2) Autumnal equinox; 3) Winter solstice.",
-    "answer": "2 2019 Regional Science Bowl – Round 11A",
+    "answer": "2",
     "tags": [
       "recall",
       "astronomy"
@@ -76767,7 +76767,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Multiple Choice",
     "question": "Spiracles on the surface of insects function as part of which of the following organ systems?",
-    "answer": "Z) RESPIRATORY 2019 Regional Science Bowl – Round 11A",
+    "answer": "Z) RESPIRATORY",
     "choices": {
       "W": "Circulatory",
       "X": "Digestive",
@@ -76835,7 +76835,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "Jack is asked by his teacher to subtract 4 from a number and multiply the result by 3. Instead, he subtracts 3 and then multiplies the result by 4, giving him 176. What is the correct",
-    "answer": "to the teacher’s question? ANSWER: 129 2019 Regional Science Bowl – Round 11A",
+    "answer": "to the teacher’s question? ANSWER: 129",
     "tags": [
       "recall",
       "application"
@@ -76859,7 +76859,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "For integers a and b, define the binary operation “star” by a “star” b is equal to 2 less than the product of a and b. What is 3 “star” open parenthesis 4 “star” 5 close parenthesis?",
-    "answer": "52 2019 Regional Science Bowl – Round 11A",
+    "answer": "52",
     "tags": [
       "recall",
       "chemistry-reactions",
@@ -76884,7 +76884,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "Rank the following three planets in order of increasing length of day: 1) Jupiter; 2) Saturn; 3) Uranus.",
-    "answer": "1, 2, 3 2019 Regional Science Bowl – Round 11A",
+    "answer": "1, 2, 3",
     "tags": [
       "astronomy",
       "application"
@@ -76949,7 +76949,7 @@
     "subject": "ENERGY",
     "format": "Multiple Choice",
     "question": "Pacific Northwest National Lab scientists are studying the virus that causes Middle East respiratory syndrome. This virus is most closely related to the virus that causes what other disease?",
-    "answer": "Z) SARS 2019 Regional Science Bowl – Round 11A",
+    "answer": "Z) SARS",
     "choices": {
       "W": "Influenza",
       "X": "Common cold",
@@ -77054,7 +77054,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "How many different types of opsins are found in the normal human eye?",
-    "answer": "4 2019 Regional Science Bowl – Round 10A",
+    "answer": "4",
     "tags": [
       "computational",
       "conceptual",
@@ -77086,7 +77086,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "A team of scientists from Oak Ridge National Laboratory have been studying the enzyme RuBisCO [roo-BIS-koh] using neutron scattering and X-ray diffraction techniques. What key atom can neutron-scattering methods directly detect that X-ray methods cannot?",
-    "answer": "HYDROGEN 2019 Regional Science Bowl – Round 10A",
+    "answer": "HYDROGEN",
     "tags": [
       "chemistry-structure",
       "application"
@@ -77147,7 +77147,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "A subsurface magma chamber cools until fifty percent of its mass has crystallized. Identify all of the following three statements that are true of the magma-rock system: 1) The magma is differentiated; 2) The rock and the magma will be chemically identical; 3) The newly-formed rock will have a glassy texture.",
-    "answer": "1 2019 Regional Science Bowl – Round 10A",
+    "answer": "1",
     "tags": [
       "recall",
       "biology-anatomy",
@@ -77174,7 +77174,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "Consider a pair of “loaded” six-sided dice. In this case, each die is weighted so that each odd number is twice as likely as each even number. What is the probability of rolling the same number on both dice?",
-    "answer": "5/27 2019 Regional Science Bowl – Round 10A",
+    "answer": "5/27",
     "tags": [
       "recall",
       "statistics",
@@ -77229,7 +77229,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "Researchers at Ames Lab are studying bound electron-hole pairs in photovoltaic [photo-vawl-TAY-ik] materials. What is the term for these quasiparticles?",
-    "answer": "EXCITONS 2019 Regional Science Bowl – Round 10A",
+    "answer": "EXCITONS",
     "tags": [
       "recall",
       "chemistry-structure"
@@ -77321,7 +77321,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Multiple Choice",
     "question": "Which of the following locations in a spiral galaxy possesses the highest rate of star formation?",
-    "answer": "Y) SPIRAL ARM 2019 Regional Science Bowl – Round 10A",
+    "answer": "Y) SPIRAL ARM",
     "choices": {
       "W": "Halo",
       "X": "Core",
@@ -77358,7 +77358,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "Scientists at SLAC National Accelerator Lab are developing improvements to scanning tunneling electron microscopy. In this technique, an electron beam interacts with what shell of electrons in the sample?",
-    "answer": "VALENCE SHELL 2019 Regional Science Bowl – Round 10A",
+    "answer": "VALENCE SHELL",
     "tags": [
       "statistics",
       "chemistry-structure"
@@ -77389,7 +77389,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Multiple Choice",
     "question": "Which of the following is NOT a seedless, vascular plant?",
-    "answer": "X) LIVERWORTS 2019 Regional Science Bowl – Round 10A",
+    "answer": "X) LIVERWORTS",
     "choices": {
       "W": "Ferns",
       "X": "Liverworts",
@@ -77421,7 +77421,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "How many positive integer factors does 1584 have?",
-    "answer": "30 2019 Regional Science Bowl – Round 10A",
+    "answer": "30",
     "tags": [
       "computational",
       "algebra",
@@ -77472,7 +77472,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "In animals, what is the most important substrate of hexokinase in terms of cellular respiration?",
-    "answer": "GLUCOSE 2019 Regional Science Bowl – Round 10A",
+    "answer": "GLUCOSE",
     "tags": [
       "recall",
       "biology-anatomy"
@@ -77532,7 +77532,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three regions that are passive margins: 1) East coast of North America; 2) West coast of North America; 3) West coast of Africa.",
-    "answer": "1, 3 2019 Regional Science Bowl – Round 7A",
+    "answer": "1, 3",
     "tags": [
       "recall",
       "conceptual",
@@ -77583,7 +77583,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "Three exterior angles, one at each vertex of a triangle, have measures in the ratio of 5 to 7 to 8. What is the degree measure of the triangle’s smallest interior angle?",
-    "answer": "36 2019 Regional Science Bowl – Round 7A",
+    "answer": "36",
     "tags": [
       "recall",
       "geometry"
@@ -77632,7 +77632,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "In peas, tall is dominant to short, and green is dominant to yellow. If two plants that are each heterozygous [hetero-ZYE-gus] for both traits are bred, what is the probability that a given offspring is both tall and yellow?",
-    "answer": "3/16 2019 Regional Science Bowl – Round 7A",
+    "answer": "3/16",
     "tags": [
       "recall",
       "statistics",
@@ -77659,7 +77659,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "What are the coordinates of the vertex of the graph of y = –4x2 – 16x – 9?",
-    "answer": "(–2, 7) (ACCEPT: x = –2 AND y = 7) 2019 Regional Science Bowl – Round 7A",
+    "answer": "(–2, 7) (ACCEPT: x = –2 AND y = 7)",
     "tags": [
       "application",
       "geometry"
@@ -77690,7 +77690,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "Scientists at Argonne National Lab are researching methods to convert methane to an alcohol. What single-carbon alcohol are they trying to synthesize?",
-    "answer": "METHANOL 2019 Regional Science Bowl – Round 7A",
+    "answer": "METHANOL",
     "tags": [
       "synthesis",
       "application"
@@ -77797,7 +77797,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "Scientists at Pacific Northwest National Lab are collecting xenon-136 in order to study a special type of double beta decay. What particle does regular beta decay produce that this special type of double beta decay does not?",
-    "answer": "NEUTRINO (ACCEPT: ANTINEUTRINO, ELECTRON ANTINEUTRINO, ELECTRON NEUTRINO) 2019 Regional Science Bowl – Round 7A",
+    "answer": "NEUTRINO (ACCEPT: ANTINEUTRINO, ELECTRON ANTINEUTRINO, ELECTRON NEUTRINO)",
     "tags": [
       "chemistry-structure",
       "application"
@@ -77845,7 +77845,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three aspects of planetary motion that were included in Copernicus’ model of the solar system: 1) The Sun is at the center; 2) Planets have elliptical orbits; 3) The Moon orbits Earth.",
-    "answer": "1, 3 2019 Regional Science Bowl – Round 7A",
+    "answer": "1, 3",
     "tags": [
       "recall",
       "statistics",
@@ -92965,7 +92965,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "Triangle ABC has all angles with integral degree measures, and the measure of angle A equals 7 times the measure of angle B. How many possible degree measures are there for angle C?",
-    "answer": "22 2019 Regional Science Bowl – Round 15A",
+    "answer": "22",
     "tags": [
       "computational",
       "geometry",
@@ -93023,7 +93023,7 @@
     "subject": "ENERGY",
     "format": "Multiple Choice",
     "question": "DOE researchers recently detected the simultaneous arrival on Earth of the gravitational waves and the light emitted from a distant neutron star merger. This simultaneous arrival implies that, if a graviton particle exists, it must have a mass most similar to which of the following particles?",
-    "answer": "Z) PHOTON 2019 Regional Science Bowl – Round 15A",
+    "answer": "Z) PHOTON",
     "choices": {
       "W": "Top quark",
       "X": "Proton",
@@ -93076,7 +93076,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three features that all chordates possess at some point in their development: 1) Vertebral column; 2) Pharyngeal [fair-in-JEE-ul] slits; 3) Post-anal tail.",
-    "answer": "2, 3 2019 Regional Science Bowl – Round 15A",
+    "answer": "2, 3",
     "tags": [
       "recall",
       "conceptual",
@@ -93140,7 +93140,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Multiple Choice",
     "question": "Seismologists believe that Earth's inner core rotates faster than the rest of the planet. What evidence do they cite?",
-    "answer": "Y) THE FASTEST ROUTE FOR P-WAVES IS SHIFTING EASTWARD OVER TIME 2019 Regional Science Bowl – Round 15A",
+    "answer": "Y) THE FASTEST ROUTE FOR P-WAVES IS SHIFTING EASTWARD OVER TIME",
     "choices": {
       "W": "The fastest route for s-waves is shifting eastward over time",
       "X": "The fastest route for s-waves is shifting westward over time",
@@ -93207,7 +93207,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "A doublet of strong yellow D lines in the spectrum of the Sun are absorption lines stemming from what element?",
-    "answer": "SODIUM 2019 Regional Science Bowl – Round 15A",
+    "answer": "SODIUM",
     "tags": [
       "analytical",
       "application",
@@ -93257,7 +93257,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "The ICARUS [IH-kah-rus] detector has been moved to the Fermi National Accelerator Lab for further neutrino experiments. This detector is filled with argon that, upon interaction with a neutrino, becomes what element?",
-    "answer": "POTASSIUM (ACCEPT: K) 2019 Regional Science Bowl – Round 15A",
+    "answer": "POTASSIUM (ACCEPT: K)",
     "tags": [
       "application"
     ]
@@ -93304,7 +93304,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "What is the largest prime factor of the quantity",
-    "answer": "13 2019 Regional Science Bowl – Round 15A",
+    "answer": "13",
     "tags": [
       "recall",
       "algebra",
@@ -93384,7 +93384,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "What is the term for mobile genetic elements that can move from one location to another in a cell's genome?",
-    "answer": "TRANSPOSONS (ACCEPT: JUMPING GENE) 2019 Regional Science Bowl – Round 5A",
+    "answer": "TRANSPOSONS (ACCEPT: JUMPING GENE)",
     "tags": [
       "recall",
       "biology-anatomy",
@@ -93447,7 +93447,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "Chemists at SLAC National Lab have developed a copper catalyst with a large surface area that converts carbon dioxide to ethanol in an acidic environment. Identify all of the following three statements that are TRUE of this process: 1) Carbon dioxide is oxidized in this reaction; 2) This is an example of homogenous catalysis; 3) The reaction has many side products.",
-    "answer": "3 2019 Regional Science Bowl – Round 5A",
+    "answer": "3",
     "tags": [
       "recall",
       "geometry",
@@ -93472,7 +93472,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "Evaluate the summation, from n = 1 to infinity, of the fraction with numerator 40 and denominator 5n.",
-    "answer": "10 2019 Regional Science Bowl – Round 5A",
+    "answer": "10",
     "tags": [
       "analytical",
       "application"
@@ -93528,7 +93528,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "The DES at Fermi National Accelerator Lab is studying the properties of what energy in the universe that is thought to counteract the effects of gravity?",
-    "answer": "DARK ENERGY 2019 Regional Science Bowl – Round 5A",
+    "answer": "DARK ENERGY",
     "tags": [
       "physics-mechanics",
       "astronomy"
@@ -93559,7 +93559,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three substances that are able to pass through the glomerulus [glo-MAIR-yoo-lus] of a healthy nephron [NEF-ron] into the filtrate: 1) Albumin; 2) Glucose; 3) Red blood cell.",
-    "answer": "2 2019 Regional Science Bowl – Round 5A",
+    "answer": "2",
     "tags": [
       "recall",
       "biology-anatomy"
@@ -93615,7 +93615,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three conditions that apply to a population in Hardy-Weinberg equilibrium: 1) Selection pressure; 2) Gene flow to other populations; 3) Random mating.",
-    "answer": "3 2019 Regional Science Bowl – Round 5A",
+    "answer": "3",
     "tags": [
       "recall",
       "application",
@@ -93677,7 +93677,7 @@
     "subject": "ENERGY",
     "format": "Multiple Choice",
     "question": "Fermi National Lab scientists demonstrated the accuracy of lattice quantum chromodynamics, which is a theory that, among other predictions, predicts which of the following experimental observations?",
-    "answer": "W) COLOR CONFINEMENT 2019 Regional Science Bowl – Round 5A",
+    "answer": "W) COLOR CONFINEMENT",
     "choices": {
       "W": "Color confinement",
       "X": "Electron capture",
@@ -93758,7 +93758,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "Based on modern taxonomy, how many domains of life are there?",
-    "answer": "3 2019 Regional Science Bowl – Round 5A",
+    "answer": "3",
     "tags": [
       "computational",
       "statistics"
@@ -93788,7 +93788,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three characterisitcs that describe hot spots: 1) They are zones of crustal uplift; 2)They have an elevated geotherm; 3) They can be over 100 kilometers across.",
-    "answer": "ALL OF THEM 2019 Regional Science Bowl – Round 4A",
+    "answer": "ALL OF THEM",
     "tags": [
       "conceptual",
       "recall"
@@ -93863,7 +93863,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Multiple Choice",
     "question": "Which of the following is the genetic material carried by HIV?",
-    "answer": "Z) ssRNA 2019 Regional Science Bowl – Round 4A",
+    "answer": "Z) ssRNA",
     "choices": {
       "W": "dsDNA",
       "X": "ssDNA",
@@ -93901,7 +93901,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "Evaluate the integral from 0 to π/2 of sine 3x dx.",
-    "answer": "1/3 2019 Regional Science Bowl – Round 4A",
+    "answer": "1/3",
     "tags": [
       "analytical",
       "calculus"
@@ -93956,7 +93956,7 @@
     "subject": "ENERGY",
     "format": "Multiple Choice",
     "question": "Scientists at Brookhaven National Lab are studying medical imaging scintillators that absorb high-energy light and release lower-wavelength light that can be detected with a camera. In what type of imaging are these materials most likely used?",
-    "answer": "W) X-RAY IMAGING 2019 Regional Science Bowl – Round 4A",
+    "answer": "W) X-RAY IMAGING",
     "choices": {
       "W": "X-ray imaging",
       "X": "MRI",
@@ -94052,7 +94052,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "Rank the following three sources in increasing order of share of the world's total freshwater: 1) Lakes and reservoirs; 2) Atmospheric water vapor; 3) Groundwater.",
-    "answer": "2, 1, 3 2019 Regional Science Bowl – Round 4A",
+    "answer": "2, 1, 3",
     "tags": [
       "application"
     ]
@@ -94164,7 +94164,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Multiple Choice",
     "question": "Moving from left to right on the H-R diagram corresponds to which of the following changes?",
-    "answer": "Z) DECREASING TEMPERATURE 2019 Regional Science Bowl – Round 4A",
+    "answer": "Z) DECREASING TEMPERATURE",
     "choices": {
       "W": "Increasing luminosity [loo-min-AW-sih-tee]",
       "X": "Increasing temperature",
@@ -94245,7 +94245,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "Through how many constellations of the night sky does the ecliptic pass?",
-    "answer": "13 2019 Regional Science Bowl – Round 3A",
+    "answer": "13",
     "tags": [
       "computational",
       "application",
@@ -94296,7 +94296,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "If x is inversely proportional to y3 and if x = 3 when y = 4, what is the value of x when y = 3?",
-    "answer": "64/9 (ACCEPT: 7 1/9) 2019 Regional Science Bowl – Round 3A",
+    "answer": "64/9 (ACCEPT: 7 1/9)",
     "tags": [
       "factual",
       "recall"
@@ -94356,7 +94356,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Multiple Choice",
     "question": "Which soil horizon typically contains clay transported from overlying horizons?",
-    "answer": "Y) B 2019 Regional Science Bowl – Round 3A",
+    "answer": "Y) B",
     "choices": {
       "W": "A",
       "X": "E",
@@ -94411,7 +94411,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "Scientists at Oak Ridge National Lab are using neutron spallation to study rocks fractured in the process of fracking. These rocks fractured because they were subjected to what substance at very high pressures?",
-    "answer": "WATER (ACCEPT: H2O) 2019 Regional Science Bowl – Round 3A",
+    "answer": "WATER (ACCEPT: H2O)",
     "tags": [
       "application",
       "earth-geology",
@@ -94436,7 +94436,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "A class of 10 students selects a different student of the month each month during February, March, April, and May. In how many different ways can the 4 honored students be selected?",
-    "answer": "5040 2019 Regional Science Bowl – Round 3A",
+    "answer": "5040",
     "tags": [
       "computational",
       "application",
@@ -94524,7 +94524,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "Chytrid [KIH-trid] cell walls are supported by what polymer?",
-    "answer": "CHITIN 2019 Regional Science Bowl – Round 3A",
+    "answer": "CHITIN",
     "tags": [
       "biology-anatomy",
       "analytical",
@@ -94574,7 +94574,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "Place the following three structures in the order in which air would pass through them during expiration: 1) Pharynx; 2) Larynx; 3) Trachea.",
-    "answer": "3, 2, 1 2019 Regional Science Bowl – Round 3A",
+    "answer": "3, 2, 1",
     "tags": [
       "biology-anatomy",
       "application"
@@ -94650,7 +94650,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "What plant ground tissue type performs a majority of the metabolic functions of a plant and plays a relatively small role in structural support?",
-    "answer": "PARENCHYMA [puh-RENG-kuh-muh] 2019 Regional Science Bowl – Round 2",
+    "answer": "PARENCHYMA [puh-RENG-kuh-muh]",
     "tags": [
       "biology-anatomy",
       "conceptual",
@@ -94713,7 +94713,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "An atom of uranium-238 undergoes two beta-minus decays and four alpha decays. What is the mass number of the product?",
-    "answer": "222 2019 Regional Science Bowl – Round 2",
+    "answer": "222",
     "tags": [
       "recall",
       "chemistry-reactions",
@@ -94770,7 +94770,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "What is the ratio of the volume of a sphere of diameter π to the volume of a cube with edge length π?",
-    "answer": "π/6 (ACCEPT: (1/6)π) 2019 Regional Science Bowl – Round 2",
+    "answer": "π/6 (ACCEPT: (1/6)π)",
     "tags": [
       "recall",
       "geometry"
@@ -94825,7 +94825,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "Pterosaurs [TERR-oh-sores] were the first tetrapods to evolve what key characteristic of their clade?",
-    "answer": "FLIGHT (ACCEPT: POWERED FLIGHT, WINGED FLIGHT) 2019 Regional Science Bowl – Round 2",
+    "answer": "FLIGHT (ACCEPT: POWERED FLIGHT, WINGED FLIGHT)",
     "tags": [
       "physics-mechanics",
       "physics-waves"
@@ -94911,7 +94911,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three rocks that can have a glassy texture: 1) Coal; 2) Obsidian; 3) Pumice.",
-    "answer": "2, 3 2019 Regional Science Bowl – Round 2",
+    "answer": "2, 3",
     "tags": [
       "recall",
       "earth-geology"
@@ -94943,7 +94943,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Multiple Choice",
     "question": "The organisms that form truffles are predominantly part of what group of fungi?",
-    "answer": "Z) ASCOMYCETES 2019 Regional Science Bowl – Round 2",
+    "answer": "Z) ASCOMYCETES",
     "choices": {
       "W": "Chytrids [KIH-trids]",
       "X": "Glomeromycetes [glo-mair-oh-MY-seets]",
@@ -95023,7 +95023,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "What is the adjective for organisms that lay eggs that hatch outside the mother's body?",
-    "answer": "OVIPAROUS 2019 Regional Science Bowl – Round 2",
+    "answer": "OVIPAROUS",
     "tags": [
       "recall",
       "biology-anatomy"
@@ -95087,7 +95087,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "What type of plant cell opens and closes stomata in leaves?",
-    "answer": "GUARD CELLS 2019 Regional Science Bowl – Round 1",
+    "answer": "GUARD CELLS",
     "tags": [
       "biology-anatomy",
       "application"
@@ -95195,7 +95195,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "What type of reflecting telescope has a secondary mirror deflect the light by 90 degrees so that it is focused at an eyepiece on the side of the telescope?",
-    "answer": "NEWTONIAN 2019 Regional Science Bowl – Round 1",
+    "answer": "NEWTONIAN",
     "tags": [
       "application",
       "physics-waves"
@@ -95250,7 +95250,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "What is the limit as x approaches zero of the fraction with numerator sine squared of x plus open parenthesis sine of x2 close parenthesis, and denominator x2?",
-    "answer": "2 2019 Regional Science Bowl – Round 1",
+    "answer": "2",
     "tags": [
       "recall",
       "calculus"
@@ -95306,7 +95306,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "You inscribe a circle in a square and then you hit the square with 100 randomly-placed darts. To the nearest whole number how many of the darts would you expect to land in the circle?",
-    "answer": "79 2019 Regional Science Bowl – Round 1",
+    "answer": "79",
     "tags": [
       "factual",
       "computational",
@@ -95364,7 +95364,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three Cnidarians [nye-DARE-ee- enz] that do NOT experience a medusa phase in their life cycles: 1) Sea wasp; 2) Star coral; 3) Sea anemone.",
-    "answer": "2, 3 2019 Regional Science Bowl – Round 1",
+    "answer": "2, 3",
     "tags": [
       "recall",
       "astronomy"
@@ -95415,7 +95415,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "One of the zeroes of the polynomial x3 – 7x2 + 9x – 63 is the complex number 3i. What is the value of the real zero of the polynomial?",
-    "answer": "7 2019 Regional Science Bowl – Round 1",
+    "answer": "7",
     "tags": [
       "recall",
       "algebra"
@@ -95503,7 +95503,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "What is the sum of the squares of the first 19 positive integers?",
-    "answer": "2470 2019 Regional Science Bowl – Round 17A",
+    "answer": "2470",
     "tags": [
       "recall",
       "application"
@@ -95556,7 +95556,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "Scientists at Lawrence Berkeley National Lab have been studying crystallized biomolecules with electron microscopy. In one type of experiment, the samples are immersed in liquid nitrogen to form vitreous ice before imaging. What type of electron microscopy is this?",
-    "answer": "CRYOELECTRON MICROSCOPY (ACCEPT: CRYO, CRYO-EM) 2019 Regional Science Bowl – Round 17A",
+    "answer": "CRYOELECTRON MICROSCOPY (ACCEPT: CRYO, CRYO-EM)",
     "tags": [
       "statistics",
       "chemistry-structure"
@@ -95625,7 +95625,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Multiple Choice",
     "question": "Which of the following medications would likely be most effective in treating a human patient with influenza?",
-    "answer": "Y) ZANAMIVIR 2019 Regional Science Bowl – Round 17A",
+    "answer": "Y) ZANAMIVIR",
     "choices": {
       "W": "Penicillin",
       "X": "Ampicillin",
@@ -95679,7 +95679,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "f of x is a twice-differentiable function such that f prime of x and f double prime of x are both less than 0 for all real numbers. If f of 3 equals 22 and f of 5 equals 17, what is the largest possible integer value for f of 9?",
-    "answer": "6 2019 Regional Science Bowl – Round 17A",
+    "answer": "6",
     "tags": [
       "recall",
       "number-theory",
@@ -95783,7 +95783,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Multiple Choice",
     "question": "A galaxy is receding from an observer such that the hydrogen alpha line appears to be at 657 nanometers instead of 656.3 nanometers. Which of the following best describes the changes in the beta and gamma lines for this galaxy?",
-    "answer": "X) THEY WILL BOTH BE SHIFTED BY SLIGHTLY LESS THAN 0.7 NANOMETERS 2019 Regional Science Bowl – Round 17A",
+    "answer": "X) THEY WILL BOTH BE SHIFTED BY SLIGHTLY LESS THAN 0.7 NANOMETERS",
     "choices": {
       "W": "They will both be shifted longer by 0.7 nanometers",
       "X": "They will both be shifted by slightly less than 0.7 nanometers",
@@ -95815,7 +95815,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "If a, b, and c are the three zeroes of the polynomial x3 – 9x2 + 26x – 24, what is the product of the three numbers 1 – a, 1 – b, and 1 – c?",
-    "answer": "–6 2019 Regional Science Bowl – Round 17A",
+    "answer": "–6",
     "tags": [
       "recall",
       "algebra",
@@ -95923,7 +95923,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three physical properties that are exhibited by both gypsum and halite [HAY-lite]: 1) Glassy or vitreous luster; 2) White streak; 3) Three cleavage planes at right angles to one another.",
-    "answer": "1, 2 2019 Regional Science Bowl – Round 6A",
+    "answer": "1, 2",
     "tags": [
       "recall",
       "geometry"
@@ -95972,7 +95972,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "In mRNA synthesis, what enzyme reads the DNA and synthesizes the strand of RNA?",
-    "answer": "RNA POLYMERASE [pah-LIM-er-ace] 2019 Regional Science Bowl – Round 6A",
+    "answer": "RNA POLYMERASE [pah-LIM-er-ace]",
     "tags": [
       "synthesis",
       "biology-genetics"
@@ -96033,7 +96033,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "In what layer of the Earth’s atmosphere do auroras primarily occur?",
-    "answer": "THERMOSPHERE 2019 Regional Science Bowl – Round 6A",
+    "answer": "THERMOSPHERE",
     "tags": [
       "earth-weather",
       "conceptual",
@@ -96059,7 +96059,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "Order the following four sections of the spine from the most superior to the most inferior: 1) Lumbar; 2) Cervical; 3) Sacral; 4) Thoracic [thor-ASS-ik].",
-    "answer": "2, 4, 1, 3 2019 Regional Science Bowl – Round 6A",
+    "answer": "2, 4, 1, 3",
     "tags": [
       "application",
       "anatomy"
@@ -96146,7 +96146,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "Arrange the following three colors of light in order of increasing depth of penetration in average seawater: 1) Violet; 2) Red; 3) Yellow.",
-    "answer": "2, 3, 1 2019 Regional Science Bowl – Round 6A",
+    "answer": "2, 3, 1",
     "tags": [
       "statistics",
       "physics-waves"
@@ -96169,7 +96169,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Multiple Choice",
     "question": "Which of the following best describes the reason for the similarity between the wing of a bird and the wing of an insect?",
-    "answer": "W) CONVERGENT EVOLUTION 2019 Regional Science Bowl – Round 6A",
+    "answer": "W) CONVERGENT EVOLUTION",
     "choices": {
       "W": "Convergent evolution",
       "X": "Divergent evolution",
@@ -96303,7 +96303,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "What is the real quadratic polynomial with leading coefficient one that has –5 + 7i as a zero?",
-    "answer": "x2 + 10x + 74 2019 Regional Science Bowl – Round 16A",
+    "answer": "x2 + 10x + 74",
     "tags": [
       "recall",
       "algebra"
@@ -96353,7 +96353,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "The rate of solar rotation was originally determined by observing the movement of what features?",
-    "answer": "SUNSPOTS 2019 Regional Science Bowl – Round 16A",
+    "answer": "SUNSPOTS",
     "tags": [
       "analytical",
       "application"
@@ -96383,7 +96383,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "Scientists at Brookhaven National Lab are studying Cooper pairs in iron-selenide superconductors. Cooper pairs are pairs of what subatomic particles?",
-    "answer": "ELECTRONS 2019 Regional Science Bowl – Round 16A",
+    "answer": "ELECTRONS",
     "tags": [
       "chemistry-structure",
       "application"
@@ -96494,7 +96494,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three groups of animals that are monophyletic [mono-fye-LET-ik]: 1) Mammals; 2) Reptiles; 3) Birds.",
-    "answer": "1, 3 2019 Regional Science Bowl – Round 16A",
+    "answer": "1, 3",
     "tags": [
       "recall",
       "conceptual",
@@ -96551,7 +96551,7 @@
     "subject": "MATH",
     "format": "Short Answer",
     "question": "What is the standard deviation of the following list of 4 numbers:",
-    "answer": "2√6 2019 Regional Science Bowl – Round 16A",
+    "answer": "2√6",
     "tags": [
       "recall",
       "statistics"
@@ -96575,7 +96575,7 @@
     "subject": "ENERGY",
     "format": "Short Answer",
     "question": "Scientists at Brookhaven National Lab are part of the ATLAS experiment at CERN, which recently observed light-by-light scattering, where light at high energies can be scattered by what particle?",
-    "answer": "PHOTON 2019 Regional Science Bowl – Round 16A",
+    "answer": "PHOTON",
     "tags": [
       "factual",
       "physics-waves"
@@ -96654,7 +96654,7 @@
     "subject": "LIFE SCIENCE",
     "format": "Short Answer",
     "question": "Identify all of the following three groups of organisms that are protostomes: 1) Snails; 2) Sea cucumbers; 3) Earthworms.",
-    "answer": "1, 3 2019 Regional Science Bowl – Round 16A",
+    "answer": "1, 3",
     "tags": [
       "recall",
       "biology-anatomy"
@@ -96678,7 +96678,7 @@
     "subject": "EARTH SCIENCE",
     "format": "Short Answer",
     "question": "An astronaut is 4 light-years from Alpha Centauri, and traveling toward it. If the astronaut is traveling at 0.6c, then, from the reference frame of the astronaut, how far, in light years, will the journey appear to be?",
-    "answer": "3.2 (ACCEPT: 3 1/5, 16/5) 2019 Regional Science Bowl – Round 16A",
+    "answer": "3.2 (ACCEPT: 3 1/5, 16/5)",
     "tags": [
       "physics-waves",
       "astronomy"
